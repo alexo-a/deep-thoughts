@@ -19,8 +19,8 @@ const ThoughtList = ({ thoughts, title }) => {
                                 className="text-light"
                             >
                                 {thought.username}
-                            </Link>
-              thought on {thought.createdAt}
+                            </Link>   
+                            {} thought on {thought.createdAt}
                         </p>
                         <div className="card-body">
                             <Link to={`/thought/${thought._id}`}>
